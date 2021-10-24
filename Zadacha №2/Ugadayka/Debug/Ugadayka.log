@@ -1,0 +1,3 @@
+﻿  Ugadayka.cpp
+C:\Users\Daydi Li\source\repos\Ugadayka\Ugadayka\Ugadayka.cpp(6,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Ugadayka.vcxproj -> C:\Users\Daydi Li\source\repos\Ugadayka\Debug\Ugadayka.exe
