@@ -1,0 +1,3 @@
+D:\Miscellaneous\Computer science\Code\Calculator\Calculator\Debug\Calculator.MyForm.resources
+D:\Miscellaneous\Computer science\Code\Calculator\Calculator\Debug\Calculator.vcxproj.GenerateResource.cache
+D:\Miscellaneous\Computer science\Code\Calculator\Calculator\Debug\Calculator.vcxproj.AssemblyReference.cache
