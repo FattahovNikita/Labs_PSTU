@@ -1,8 +1,0 @@
-﻿  MyForm.cpp
-D:\Miscellaneous\Computer science\Code\Calculator\Calculator\MyForm.h(526,13): warning C4244: =: преобразование "__int64" в "double", возможна потеря данных
-D:\Miscellaneous\Computer science\Code\Calculator\Calculator\MyForm.cpp(5,32): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
-D:\Miscellaneous\Computer science\Code\Calculator\Calculator\MyForm.h(454): warning C4715: Calculator::MyForm::check_input_textbox_1: значение возвращается не при всех путях выполнения
-D:\Miscellaneous\Computer science\Code\Calculator\Calculator\MyForm.h(462): warning C4715: Calculator::MyForm::check_input_textbox_2: значение возвращается не при всех путях выполнения
-D:\Miscellaneous\Computer science\Code\Calculator\Calculator\MyForm.h(470): warning C4715: Calculator::MyForm::check_input_textbox_5: значение возвращается не при всех путях выполнения
-  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
-  Calculator.vcxproj -> D:\Miscellaneous\Computer science\Code\Calculator\Debug\Calculator.exe
