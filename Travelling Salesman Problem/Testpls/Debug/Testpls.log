@@ -1,0 +1,148 @@
+﻿  Testpls.cpp
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(443): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(444): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(454): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(461): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(466): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(477): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(484): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(533): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(534): warning C4244: =: преобразование "float" в "int", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(537): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(539): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(546): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(753): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(760): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(761): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(801): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(802): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(806): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(863): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(864): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(868): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(913): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(914): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(918): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(939): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(964): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(965): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(969): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(979): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(984): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(993): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1025): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1026): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1030): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1053): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1084): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1085): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1089): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1111): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1129): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1130): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1134): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(778): warning C4101: vertex: неиспользованная локальная переменная
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(182): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(179): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(1043): note: выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetAmountEdges(void)"
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(517): note: выполняется компиляция ссылки на экземпляр шаблон класс "Graph<int>"
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(183): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(162): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(157): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(881): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Graph<int>::PrintMatrix(void)"
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(166): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(168): warning C4018: <: несоответствие типов со знаком и без знака
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(147): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(143): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(997): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Graph<int>::DeleteVertex(const T &)"
+          with
+          [
+              T=int
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(67): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(66): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(756): note: выполняется компиляция ссылки на экземпляр шаблон функции "int Graph<int>::GetPos(const T &)"
+          with
+          [
+              T=int
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(53): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(787): note: выполняется компиляция ссылки на экземпляр шаблон функции "void Graph<int>::addVertex(const T &)"
+          with
+          [
+              T=int
+          ]
+d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(93): warning C4018: <: несоответствие типов со знаком и без знака
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(89): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  d:\miscellaneous\computer science\code\travelling salesman\testpls\testpls.cpp(144): note: выполняется компиляция ссылки на экземпляр шаблон функции "std::vector<int,std::allocator<_Ty>> Graph<int>::GetAdjVert(const T &)"
+          with
+          [
+              _Ty=int,
+              T=int
+          ]
+  Testpls.vcxproj -> D:\Miscellaneous\Computer science\Code\Travelling Salesman\Debug\Testpls.exe
