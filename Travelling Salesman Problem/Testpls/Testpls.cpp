@@ -151,6 +151,9 @@ public:
 		vertexList.erase(it, vertexList.end());
 		auto tit = remove(copyVertexList.begin(), copyVertexList.end(), vertex1);
 		copyVertexList.erase(tit, copyVertexList.end());
+		for (int i = 0; i < vertexList.size(); ++i) {
+			vertexList[i] = i + 1;
+		}
 
 
 	}
@@ -914,6 +917,10 @@ int main()
 					}
 					if (x > 0 && y > 0 && x >= Addx && x <= Addx + AddW && y >= Addy && y <= Addy + AddH) {
 
+						if (graph.vertexList.size() == 20) {
+							cout << "Кол-во вершин превышает максимум (20)" << endl;
+							break;
+						}
 						vector<Line> tempconnections;
 						vector<Line> tempbestconnections;
 						vector<Node> tempcities;
@@ -1217,7 +1224,3 @@ int main()
     }
     return 0;
 }
-
-
-
-
