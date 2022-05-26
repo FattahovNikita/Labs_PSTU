@@ -1,8 +1,7 @@
 #define _USE_MATH_DEFINES
 #include<cmath>
 #pragma once
-
-
+//РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ
 namespace Calculator {
 
 	using namespace System;
@@ -13,7 +12,7 @@ namespace Calculator {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -22,13 +21,13 @@ namespace Calculator {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -81,14 +80,14 @@ namespace Calculator {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -141,8 +140,8 @@ namespace Calculator {
 			this->comboBox1->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox1->FormattingEnabled = true;
 			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(9) {
-				L"Сложение", L"Вычитание", L"Умножение", L"Деление",
-					L"Возведение в степень", L"Нахождение корня", L"Нахождение логарифма", L"Нахождение остатка", L"Нахождение факториала"
+				L"Г‘Г«Г®Г¦ГҐГ­ГЁГҐ", L"Г‚Г»Г·ГЁГІГ Г­ГЁГҐ", L"Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ", L"Г„ГҐГ«ГҐГ­ГЁГҐ",
+					L"Г‚Г®Г§ГўГҐГ¤ГҐГ­ГЁГҐ Гў Г±ГІГҐГЇГҐГ­Гј", L"ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ ГЄГ®Г°Г­Гї", L"ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г«Г®ГЈГ Г°ГЁГґГ¬Г ", L"ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г®Г±ГІГ ГІГЄГ ", L"ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ ГґГ ГЄГІГ®Г°ГЁГ Г«Г "
 			});
 			this->comboBox1->Location = System::Drawing::Point(162, 11);
 			this->comboBox1->Name = L"comboBox1";
@@ -161,7 +160,7 @@ namespace Calculator {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(144, 46);
 			this->button1->TabIndex = 2;
-			this->button1->Text = L"Запустить";
+			this->button1->Text = L"Г‡Г ГЇГіГ±ГІГЁГІГј";
 			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -176,7 +175,7 @@ namespace Calculator {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(144, 46);
 			this->button2->TabIndex = 3;
-			this->button2->Text = L"Очистить";
+			this->button2->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->button2->UseVisualStyleBackColor = false;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -187,7 +186,7 @@ namespace Calculator {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(102, 18);
 			this->label1->TabIndex = 4;
-			this->label1->Text = L"Первое число";
+			this->label1->Text = L"ГЏГҐГ°ГўГ®ГҐ Г·ГЁГ±Г«Г®";
 			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// label2
@@ -197,7 +196,7 @@ namespace Calculator {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(101, 18);
 			this->label2->TabIndex = 4;
-			this->label2->Text = L"Второе число";
+			this->label2->Text = L"Г‚ГІГ®Г°Г®ГҐ Г·ГЁГ±Г«Г®";
 			this->label2->Click += gcnew System::EventHandler(this, &MyForm::label2_Click);
 			// 
 			// textBox2
@@ -217,7 +216,7 @@ namespace Calculator {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(76, 18);
 			this->label3->TabIndex = 6;
-			this->label3->Text = L"Результат";
+			this->label3->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			this->label3->Click += gcnew System::EventHandler(this, &MyForm::label3_Click);
 			// 
 			// textBox3
@@ -238,7 +237,7 @@ namespace Calculator {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(151, 18);
 			this->label4->TabIndex = 4;
-			this->label4->Text = L"Выберите операцию";
+			this->label4->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ Г®ГЇГҐГ°Г Г¶ГЁГѕ";
 			this->label4->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// tabControl1
@@ -277,7 +276,7 @@ namespace Calculator {
 			this->tabPage1->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage1->Size = System::Drawing::Size(367, 207);
 			this->tabPage1->TabIndex = 0;
-			this->tabPage1->Text = L"Мат. операции";
+			this->tabPage1->Text = L"ГЊГ ГІ. Г®ГЇГҐГ°Г Г¶ГЁГЁ";
 			this->tabPage1->Click += gcnew System::EventHandler(this, &MyForm::tabPage1_Click);
 			// 
 			// label11
@@ -287,7 +286,7 @@ namespace Calculator {
 			this->label11->Name = L"label11";
 			this->label11->Size = System::Drawing::Size(86, 36);
 			this->label11->TabIndex = 8;
-			this->label11->Text = L"(Логарифм.\r\n    число)";
+			this->label11->Text = L"(Г‹Г®ГЈГ Г°ГЁГґГ¬.\r\n    Г·ГЁГ±Г«Г®)";
 			// 
 			// label10
 			// 
@@ -296,7 +295,7 @@ namespace Calculator {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(92, 36);
 			this->label10->TabIndex = 7;
-			this->label10->Text = L"(Основание\r\n логарифма)";
+			this->label10->Text = L"(ГЋГ±Г­Г®ГўГ Г­ГЁГҐ\r\n Г«Г®ГЈГ Г°ГЁГґГ¬Г )";
 			this->label10->Click += gcnew System::EventHandler(this, &MyForm::label10_Click);
 			// 
 			// tabPage2
@@ -322,7 +321,7 @@ namespace Calculator {
 			this->tabPage2->Padding = System::Windows::Forms::Padding(3);
 			this->tabPage2->Size = System::Drawing::Size(367, 207);
 			this->tabPage2->TabIndex = 1;
-			this->tabPage2->Text = L"Тригометрические функции";
+			this->tabPage2->Text = L"Г’Г°ГЁГЈГ®Г¬ГҐГІГ°ГЁГ·ГҐГ±ГЄГЁГҐ ГґГіГ­ГЄГ¶ГЁГЁ";
 			// 
 			// button5
 			// 
@@ -333,7 +332,7 @@ namespace Calculator {
 			this->button5->Name = L"button5";
 			this->button5->Size = System::Drawing::Size(80, 26);
 			this->button5->TabIndex = 8;
-			this->button5->Text = L"Число Пи";
+			this->button5->Text = L"Г—ГЁГ±Г«Г® ГЏГЁ";
 			this->button5->UseVisualStyleBackColor = false;
 			this->button5->Click += gcnew System::EventHandler(this, &MyForm::button5_Click);
 			// 
@@ -348,7 +347,7 @@ namespace Calculator {
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(144, 46);
 			this->button4->TabIndex = 8;
-			this->button4->Text = L"Запустить";
+			this->button4->Text = L"Г‡Г ГЇГіГ±ГІГЁГІГј";
 			this->button4->UseVisualStyleBackColor = false;
 			this->button4->Click += gcnew System::EventHandler(this, &MyForm::button4_Click);
 			// 
@@ -363,7 +362,7 @@ namespace Calculator {
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(139, 46);
 			this->button3->TabIndex = 8;
-			this->button3->Text = L"Очистить";
+			this->button3->Text = L"ГЋГ·ГЁГ±ГІГЁГІГј";
 			this->button3->UseVisualStyleBackColor = false;
 			this->button3->Click += gcnew System::EventHandler(this, &MyForm::button3_Click);
 			// 
@@ -371,7 +370,7 @@ namespace Calculator {
 			// 
 			this->comboBox3->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox3->FormattingEnabled = true;
-			this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"Градусы", L"Радианы" });
+			this->comboBox3->Items->AddRange(gcnew cli::array< System::Object^  >(2) { L"ГѓГ°Г Г¤ГіГ±Г»", L"ГђГ Г¤ГЁГ Г­Г»" });
 			this->comboBox3->Location = System::Drawing::Point(245, 49);
 			this->comboBox3->Name = L"comboBox3";
 			this->comboBox3->Size = System::Drawing::Size(92, 26);
@@ -384,7 +383,7 @@ namespace Calculator {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(232, 18);
 			this->label8->TabIndex = 9;
-			this->label8->Text = L"Выберите градусы или радианы";
+			this->label8->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГЈГ°Г Г¤ГіГ±Г» ГЁГ«ГЁ Г°Г Г¤ГЁГ Г­Г»";
 			this->label8->Click += gcnew System::EventHandler(this, &MyForm::label8_Click);
 			// 
 			// label7
@@ -394,7 +393,7 @@ namespace Calculator {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(76, 18);
 			this->label7->TabIndex = 8;
-			this->label7->Text = L"Результат";
+			this->label7->Text = L"ГђГҐГ§ГіГ«ГјГІГ ГІ";
 			// 
 			// textBox5
 			// 
@@ -424,7 +423,7 @@ namespace Calculator {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(76, 18);
 			this->label6->TabIndex = 2;
-			this->label6->Text = L"Значение";
+			this->label6->Text = L"Г‡Г­Г Г·ГҐГ­ГЁГҐ";
 			// 
 			// label5
 			// 
@@ -433,7 +432,7 @@ namespace Calculator {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(145, 18);
 			this->label5->TabIndex = 1;
-			this->label5->Text = L"Выберите функцию";
+			this->label5->Text = L"Г‚Г»ГЎГҐГ°ГЁГІГҐ ГґГіГ­ГЄГ¶ГЁГѕ";
 			this->label5->Click += gcnew System::EventHandler(this, &MyForm::label5_Click);
 			// 
 			// comboBox2
@@ -441,8 +440,8 @@ namespace Calculator {
 			this->comboBox2->DropDownStyle = System::Windows::Forms::ComboBoxStyle::DropDownList;
 			this->comboBox2->FormattingEnabled = true;
 			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(8) {
-				L"Синус", L"Косинус", L"Тангенс", L"Котангенс",
-					L"Арксинус", L"Арккосинус", L"Арктангенс", L"Арккотангенс"
+				L"Г‘ГЁГ­ГіГ±", L"ГЉГ®Г±ГЁГ­ГіГ±", L"Г’Г Г­ГЈГҐГ­Г±", L"ГЉГ®ГІГ Г­ГЈГҐГ­Г±",
+					L"ГЂГ°ГЄГ±ГЁГ­ГіГ±", L"ГЂГ°ГЄГЄГ®Г±ГЁГ­ГіГ±", L"ГЂГ°ГЄГІГ Г­ГЈГҐГ­Г±", L"ГЂГ°ГЄГЄГ®ГІГ Г­ГЈГҐГ­Г±"
 			});
 			this->comboBox2->Location = System::Drawing::Point(158, 12);
 			this->comboBox2->Name = L"comboBox2";
@@ -470,7 +469,7 @@ namespace Calculator {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(129, 18);
 			this->label9->TabIndex = 9;
-			this->label9->Text = L"Поле для заметок";
+			this->label9->Text = L"ГЏГ®Г«ГҐ Г¤Г«Гї Г§Г Г¬ГҐГІГ®ГЄ";
 			// 
 			// MyForm
 			// 
@@ -485,7 +484,7 @@ namespace Calculator {
 			this->Font = (gcnew System::Drawing::Font(L"Bahnschrift SemiBold", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
 			this->Name = L"MyForm";
-			this->Text = L"Калькулятор";
+			this->Text = L"ГЉГ Г«ГјГЄГіГ«ГїГІГ®Г°";
 			this->tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
 			this->tabPage1->PerformLayout();
@@ -540,41 +539,41 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		number_2 = System::Convert::ToDouble(textBox2->Text);
 		
 
-		if (comboBox1->SelectedItem == "Сложение") {
+		if (comboBox1->SelectedItem == "Г‘Г«Г®Г¦ГҐГ­ГЁГҐ") {
 			result = number_1 + number_2;
 		}
-		else if (comboBox1->SelectedItem == "Вычитание") {
+		else if (comboBox1->SelectedItem == "Г‚Г»Г·ГЁГІГ Г­ГЁГҐ") {
 			result = number_1 - number_2;
 		}
-		else if (comboBox1->SelectedItem == "Умножение") {
+		else if (comboBox1->SelectedItem == "Г“Г¬Г­Г®Г¦ГҐГ­ГЁГҐ") {
 			result = number_1 * number_2;
 		}
-		else if (comboBox1->SelectedItem == "Деление") {
+		else if (comboBox1->SelectedItem == "Г„ГҐГ«ГҐГ­ГЁГҐ") {
 			if (number_2 != 0) result = number_1 / number_2;
-			else MessageBox::Show("Нельзя делить на 0");
+			else MessageBox::Show("ГЌГҐГ«ГјГ§Гї Г¤ГҐГ«ГЁГІГј Г­Г  0");
 		}
-		else if (comboBox1->SelectedItem == "Нахождение остатка") {
+		else if (comboBox1->SelectedItem == "ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г®Г±ГІГ ГІГЄГ ") {
 			if (number_2 != 0) result = (int)number_1 % (int)number_2;
-			else MessageBox::Show("Нельзя делить на 0");
+			else MessageBox::Show("ГЌГҐГ«ГјГ§Гї Г¤ГҐГ«ГЁГІГј Г­Г  0");
 		}
-		else if (comboBox1->SelectedItem == "Возведение в степень") {
+		else if (comboBox1->SelectedItem == "Г‚Г®Г§ГўГҐГ¤ГҐГ­ГЁГҐ Гў Г±ГІГҐГЇГҐГ­Гј") {
 			result = pow(number_1,number_2);
 			
 		}
-		else if (comboBox1->SelectedItem == "Нахождение корня") {
+		else if (comboBox1->SelectedItem == "ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ ГЄГ®Г°Г­Гї") {
 
 			if (number_2 > 0 && number_1 >= 0)  result = pow(number_1, 1/number_2);
-			if (number_2 <= 0) MessageBox::Show("Степень корня должна быть больше нуля");
-			if (number_1 < 0) MessageBox::Show("Число под корнем должно быть не меньше нуля");
+			if (number_2 <= 0) MessageBox::Show("Г‘ГІГҐГЇГҐГ­Гј ГЄГ®Г°Г­Гї Г¤Г®Г«Г¦Г­Г  ГЎГ»ГІГј ГЎГ®Г«ГјГёГҐ Г­ГіГ«Гї");
+			if (number_1 < 0) MessageBox::Show("Г—ГЁГ±Г«Г® ГЇГ®Г¤ ГЄГ®Г°Г­ГҐГ¬ Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј Г­ГҐ Г¬ГҐГ­ГјГёГҐ Г­ГіГ«Гї");
 		}
-		else if (comboBox1->SelectedItem == "Нахождение логарифма") {
+		else if (comboBox1->SelectedItem == "ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г«Г®ГЈГ Г°ГЁГґГ¬Г ") {
 
 			if (number_1 > 0 && number_2 > 0 && number_1!=1)  result = log(number_2)/log(number_1);
-			if (number_1 <= 0) MessageBox::Show("Логарифмическое основание должно быть больше 0");
-			if (number_2 <= 0) MessageBox::Show("Логарифмируемое число должно быть больше 0 ");
-			if (number_1 == 1) MessageBox::Show("Логарифмическое основание не должно быть равно 1");
+			if (number_1 <= 0) MessageBox::Show("Г‹Г®ГЈГ Г°ГЁГґГ¬ГЁГ·ГҐГ±ГЄГ®ГҐ Г®Г±Г­Г®ГўГ Г­ГЁГҐ Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЎГ®Г«ГјГёГҐ 0");
+			if (number_2 <= 0) MessageBox::Show("Г‹Г®ГЈГ Г°ГЁГґГ¬ГЁГ°ГіГҐГ¬Г®ГҐ Г·ГЁГ±Г«Г® Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј ГЎГ®Г«ГјГёГҐ 0 ");
+			if (number_1 == 1) MessageBox::Show("Г‹Г®ГЈГ Г°ГЁГґГ¬ГЁГ·ГҐГ±ГЄГ®ГҐ Г®Г±Г­Г®ГўГ Г­ГЁГҐ Г­ГҐ Г¤Г®Г«Г¦Г­Г® ГЎГ»ГІГј Г°Г ГўГ­Г® 1");
 		}
-		else if (comboBox1->SelectedItem == "Нахождение факториала") {
+		else if (comboBox1->SelectedItem == "ГЌГ ГµГ®Г¦Г¤ГҐГ­ГЁГҐ ГґГ ГЄГІГ®Г°ГЁГ Г«Г ") {
 			textBox2->Text = System::Convert::ToString(0);
 			long long int F = 1;
 			for (int i = 1; i <= number_1; ++i)
@@ -586,7 +585,7 @@ private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e
 		else return;
 		textBox3->Text = System::Convert::ToString(result);
 	}
-	else MessageBox::Show("Данные введены некорректно");
+	else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®");
 }
 
 private: System::Void label5_Click(System::Object^ sender, System::EventArgs^ e) {
@@ -605,69 +604,69 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 			   number_5 = System::Convert::ToDouble(textBox5->Text);
 
 
-			   if (comboBox2->SelectedItem == "Синус" && comboBox3->SelectedItem == "Градусы") {
+			   if (comboBox2->SelectedItem == "Г‘ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
 				   if ((int)number_5 % 180 == 0) tresult = 0;
 				   else tresult = sin(number_5 * M_PI/180.0);
 			   }
-			   else if (comboBox2->SelectedItem == "Синус" && comboBox3->SelectedItem == "Радианы") {
+			   else if (comboBox2->SelectedItem == "Г‘ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
 				   if (number_5  == M_PI) tresult = 0;
 				   else tresult = sin(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Косинус" && comboBox3->SelectedItem == "Градусы") {
+			   else if (comboBox2->SelectedItem == "ГЉГ®Г±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
 				   if ((int)number_5 % 90 == 0 && (int)number_5 % 180 != 0) tresult = 0;
 				   else tresult = cos(number_5 * M_PI / 180.0);
 			   }
-			   else if (comboBox2->SelectedItem == "Косинус" && comboBox3->SelectedItem == "Радианы") {
+			   else if (comboBox2->SelectedItem == "ГЉГ®Г±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
 				   tresult = cos(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Тангенс" && comboBox3->SelectedItem == "Градусы") {
-				   if ((int)number_5 % 90 == 0 && (int)number_5 % 180 != 0) MessageBox::Show("Тангенс не определен, деление на ноль невозможно");
+			   else if (comboBox2->SelectedItem == "Г’Г Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
+				   if ((int)number_5 % 90 == 0 && (int)number_5 % 180 != 0) MessageBox::Show("Г’Г Г­ГЈГҐГ­Г± Г­ГҐ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­, Г¤ГҐГ«ГҐГ­ГЁГҐ Г­Г  Г­Г®Г«Гј Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г®");
 				   else if ((int)number_5 % 180 == 0) tresult = 0;
 				   else tresult = tan(number_5 * M_PI / 180.0);
 			   }
-			   else if (comboBox2->SelectedItem == "Тангенс" && comboBox3->SelectedItem == "Радианы")
+			   else if (comboBox2->SelectedItem == "Г’Г Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»")
 			   {
 				   tresult = tan(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Котангенс" && comboBox3->SelectedItem == "Градусы") {
-				   if ((int)number_5 % 180 == 0) MessageBox::Show("Котангенс не определен, деление на ноль невозможно");
+			   else if (comboBox2->SelectedItem == "ГЉГ®ГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
+				   if ((int)number_5 % 180 == 0) MessageBox::Show("ГЉГ®ГІГ Г­ГЈГҐГ­Г± Г­ГҐ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­, Г¤ГҐГ«ГҐГ­ГЁГҐ Г­Г  Г­Г®Г«Гј Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г®");
 				   else if ((int)number_5 % 90 == 0) tresult = 0;
 				   else tresult = 1.0/tan(number_5 * M_PI / 180.0);
 			   }
-			   else if (comboBox2->SelectedItem == "Котангенс" && comboBox3->SelectedItem == "Радианы")
+			   else if (comboBox2->SelectedItem == "ГЉГ®ГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»")
 			   {
-				   if (number_5 == 3, 14159265358979) MessageBox::Show("Котангенс не определен, деление на ноль невозможно");
+				   if (number_5 == 3, 14159265358979) MessageBox::Show("ГЉГ®ГІГ Г­ГЈГҐГ­Г± Г­ГҐ Г®ГЇГ°ГҐГ¤ГҐГ«ГҐГ­, Г¤ГҐГ«ГҐГ­ГЁГҐ Г­Г  Г­Г®Г«Гј Г­ГҐГўГ®Г§Г¬Г®Г¦Г­Г®");
 				   else tresult = 1.0/tan(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Арксинус" && comboBox3->SelectedItem == "Градусы") {
-				   if (number_5<-1 || number_5>1) MessageBox::Show("Значения должны быть в пределах от -1 до 1");
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГ±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
+				   if (number_5<-1 || number_5>1) MessageBox::Show("Г‡Г­Г Г·ГҐГ­ГЁГї Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј Гў ГЇГ°ГҐГ¤ГҐГ«Г Гµ Г®ГІ -1 Г¤Г® 1");
 				   else tresult = asin(number_5) * 180.0 / M_PI;
 			   }
-			   else if (comboBox2->SelectedItem == "Арксинус" && comboBox3->SelectedItem == "Радианы") {
-				   if (number_5 < -1 || number_5>1) MessageBox::Show("Значения должны быть в пределах от -1 до 1");
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГ±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
+				   if (number_5 < -1 || number_5>1) MessageBox::Show("Г‡Г­Г Г·ГҐГ­ГЁГї Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј Гў ГЇГ°ГҐГ¤ГҐГ«Г Гµ Г®ГІ -1 Г¤Г® 1");
 				   else tresult = asin(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Арккосинус" && comboBox3->SelectedItem == "Градусы") {
-				   if (number_5 < -1 || number_5>1) MessageBox::Show("Значения должны быть в пределах от -1 до 1");
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГЄГ®Г±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
+				   if (number_5 < -1 || number_5>1) MessageBox::Show("Г‡Г­Г Г·ГҐГ­ГЁГї Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј Гў ГЇГ°ГҐГ¤ГҐГ«Г Гµ Г®ГІ -1 Г¤Г® 1");
 				   else tresult = acos(number_5) * 180.0 / M_PI;
 			   }
-			   else if (comboBox2->SelectedItem == "Арккосинус" && comboBox3->SelectedItem == "Радианы") {
-				   if (number_5 < -1 || number_5>1) MessageBox::Show("Значения должны быть в пределах от -1 до 1");
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГЄГ®Г±ГЁГ­ГіГ±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
+				   if (number_5 < -1 || number_5>1) MessageBox::Show("Г‡Г­Г Г·ГҐГ­ГЁГї Г¤Г®Г«Г¦Г­Г» ГЎГ»ГІГј Гў ГЇГ°ГҐГ¤ГҐГ«Г Гµ Г®ГІ -1 Г¤Г® 1");
 				   else tresult = acos(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Арктангенс" && comboBox3->SelectedItem == "Градусы") {
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
 				   
 				   tresult = atan(number_5) * 180.0 / M_PI;
 			   }
-			   else if (comboBox2->SelectedItem == "Арктангенс" && comboBox3->SelectedItem == "Радианы") {
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
 				   
 				   tresult = atan(number_5);
 			   }
-			   else if (comboBox2->SelectedItem == "Арккотангенс" && comboBox3->SelectedItem == "Градусы") {
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГЄГ®ГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГѓГ°Г Г¤ГіГ±Г»") {
 				   
 				    tresult = (M_PI/2.0 - atan(number_5)) * 180.0 / M_PI;
 			   }
-			   else if (comboBox2->SelectedItem == "Арккотангенс" && comboBox3->SelectedItem == "Радианы") {
+			   else if (comboBox2->SelectedItem == "ГЂГ°ГЄГЄГ®ГІГ Г­ГЈГҐГ­Г±" && comboBox3->SelectedItem == "ГђГ Г¤ГЁГ Г­Г»") {
 				  
 				    tresult = (M_PI / 2.0 - atan(number_5));
 			   }
@@ -675,7 +674,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 			   else return;
 			   textBox4->Text = System::Convert::ToString(tresult);
 		   }
-		   else MessageBox::Show("Данные введены некорректно");
+		   else MessageBox::Show("Г„Г Г­Г­Г»ГҐ ГўГўГҐГ¤ГҐГ­Г» Г­ГҐГЄГ®Г°Г°ГҐГЄГІГ­Г®");
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e){
 	textBox5->Text = System::Convert::ToString(M_PI);
