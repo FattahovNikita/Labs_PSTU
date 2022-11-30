@@ -1,0 +1,6 @@
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\bin\Debug\AnimalLibrary.dll
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\bin\Debug\AnimalLibrary.pdb
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\obj\Debug\AnimalLibrary.csproj.AssemblyReference.cache
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\obj\Debug\AnimalLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\obj\Debug\AnimalLibrary.dll
+C:\Users\Daydi Li\source\repos\lab.10\AnimalLibrary\obj\Debug\AnimalLibrary.pdb

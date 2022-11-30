@@ -1,0 +1,17 @@
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.exe
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.deps.json
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.runtimeconfig.json
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.runtimeconfig.dev.json
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.dll
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\lab.10.pdb
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.csproj.AssemblyReference.cache
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.AssemblyInfoInputs.cache
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.AssemblyInfo.cs
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.csproj.CoreCompileInputs.cache
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.dll
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.pdb
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.genruntimeconfig.cache
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\obj\Debug\netcoreapp3.1\lab.10.csproj.CopyComplete
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\AnimalLibrary.dll
+C:\Users\Daydi Li\source\repos\lab.10\lab.10\bin\Debug\netcoreapp3.1\AnimalLibrary.pdb
