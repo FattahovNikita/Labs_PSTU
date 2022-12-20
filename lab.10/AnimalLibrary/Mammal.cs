@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalLibrary
 {
-	public class Mammal : Animal, ICloneable
+	public class Mammal : Animal, ICloneable, IRandomInit
 	{
 		protected double hairLength;
 		public double HairLength
@@ -39,6 +39,10 @@ namespace AnimalLibrary
 			HairLength = hairLength_;
 		}
 		public override void Print()
+		{
+			Console.WriteLine($"Млекопитающее по имени {Name}, весом {Weight}, с длиной шерсти {HairLength} ");
+		}
+		public void WrongPrint()
 		{
 			Console.WriteLine($"Млекопитающее по имени {Name}, весом {Weight}, с длиной шерсти {HairLength} ");
 		}

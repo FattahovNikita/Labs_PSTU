@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AnimalLibrary
 {
-	public class Artiodactyl : Mammal, ICloneable
+	public class Artiodactyl : Mammal, ICloneable, IRandomInit
 	{
 		protected double hoofSize;
 		public double HoofSize
@@ -51,6 +51,10 @@ namespace AnimalLibrary
 			return new Artiodactyl("Клон " + this.name, this.weight, this.hairLength, this.hoofSize);
 		}
 		public override void Print()
+		{
+			Console.WriteLine($"Парнокопытное по имени {Name}, весом {Weight}, с длиной шерсти {HairLength}, c размером копыта {HoofSize} ");
+		}
+		public void WrongPrint()
 		{
 			Console.WriteLine($"Парнокопытное по имени {Name}, весом {Weight}, с длиной шерсти {HairLength}, c размером копыта {HoofSize} ");
 		}

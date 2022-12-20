@@ -8,6 +8,8 @@ namespace AnimalLibrary
 {
 	public interface IRandomInit
 	{
-		void RandomInit();
+		void RandomInit(Random rnd, Random rnd2);
+		void RandomInit(Random rnd, Random rnd2, Random rnd3);
+		void Print();
 	}
 }

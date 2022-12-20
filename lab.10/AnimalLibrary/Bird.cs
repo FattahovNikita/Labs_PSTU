@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 namespace AnimalLibrary
 {
-	public class Bird : Animal, ICloneable
+	public class Bird : Animal, ICloneable, IRandomInit
 	{
 		protected double wingSize;
 		public double WingSize
@@ -40,23 +40,53 @@ namespace AnimalLibrary
 		{
 			Console.WriteLine($"Птица по имени {Name}, весом {Weight}, с размером крыла {wingSize} ");
 		}
+		public void WrongPrint()
+		{
+			Console.WriteLine($"Птица по имени {Name}, весом {Weight}, с размером крыла {wingSize} ");
+		}
 		public Bird ShallowCopy() //поверхностное копирование
 		{
 			return (Bird)this.MemberwiseClone();
 		}
-		public object Clone()
+        public object Clone()
+        {
+            return new Bird(Name, Weight, WingSize);
+        }
+        public void RandomInit(Random rnd, Random rnd2, Random rnd3)
 		{
-			return new Bird("Клон " + this.name, this.weight, this.wingSize);
-		}
-		public void RandomInit()
-		{
-			Random rnd = new Random();
+			//Random rnd = new Random();
+			//Random rnd2 = new Random(100);
+			//Random rnd3 = new Random(43321);
 			int i = rnd.Next(0, names.Length);
-			int w = rnd.Next(1, 50);
-			int s = rnd.Next(1, 100);
+			int w = rnd2.Next(1, 5000);
+			int s = rnd3.Next(1, 100);
 			Name = names[i];
 			Weight = w;
 			WingSize = s;
+		}
+		public Animal BaseAnimal
+		{
+			get
+			{
+				return new Animal (Name, Weight);
+			}
+		}
+        public override string ToString()
+        {
+            return $"Bird(Name={Name}, Weight={Weight}, WingSize={WingSize})";
+        }
+		public override bool Equals(object obj)
+		{
+			bool result = false;
+
+			if (obj is Bird animal)
+			{
+				result = (name == animal.Name)
+					  && (weight == animal.Weight)
+					  && (wingSize == animal.WingSize);
+			}
+
+			return result;
 		}
 	}
 }

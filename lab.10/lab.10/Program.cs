@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-//using AnimalsLib;
 using AnimalLibrary;
 
 namespace lab._10
 {
     class Program
     {
+        static IRandomInit[] arr = { };
         static Animal[] zoo = { };
         static void Task()
         {
@@ -21,6 +21,8 @@ namespace lab._10
                 op = GetOperationStart();
                 switch (op)
                 {
+                    case 0:
+                        break;
                     case 1:
                         animal =  AnimalChoose();
                         if (animal!=null)
@@ -82,6 +84,20 @@ namespace lab._10
                     case 13:
                         Console.WriteLine("Копирование и клонирование");
                         CloneTask();
+                        break;
+                    case 14:
+                        if (!IsEmptyArr(zoo))
+                            WrongPrintArray(zoo);
+                        break;
+                    case 15:
+                        Console.WriteLine("Введите кол-во элементов для добавления");
+                        int sizearr = ReadIntDigit();
+                        RandomArray(ref arr, sizearr);
+                        Console.WriteLine("Элементы добавлены");
+                        break;
+                    case 16:
+                        if (!IsEmptyArr(arr))
+                            PrintArray(arr);
                         break;
                     default:
                         Console.WriteLine("Ошибка ввода операции, выберите операцию из списка");
@@ -441,14 +457,17 @@ namespace lab._10
                  "3) создать объект класса Mammal;\n" +
                  "4) создать объект класса Artiodactyl;\n" +
                  "5) вывести массив;\n" +
-                 "6) кол-во птиц в зоопарке;\n" +
-                 "7) средний вес зверей в зоопарке;\n" +
-                 "8) список имен всех зверей;\n" +
+                 "6) кол-во птиц в массиве;\n" +
+                 "7) средний вес зверей в массиве;\n" +
+                 "8) список имен всех зверей в массиве;\n" +
                  "9) cортировка по весу;\n" +
                  "10) сортировка по именам;\n" +
-                 "11) добавление случаных объектов;\n" +
+                 "11) добавление случайных объектов в массив;\n" +
                  "12) очистить массив;\n" +
                  "13) клонирование и копирование;\n" +
+                 "14) вывести массив через невиртуальную функцию;\n" +
+                 "15) создать массив случайных элементов IRandomInit;\n" +
+                 "16) вывести массив IRandomInit;\n" +
                  "0) выход;\n" +
                  "Выбранная операция: "); ;
             operation = ReadIntDigit();
@@ -541,12 +560,21 @@ namespace lab._10
             }
             return false;
         }
+        static bool IsEmptyArr(IRandomInit[] arr)
+        {
+            if (arr.Length == 0)
+            {
+                Console.WriteLine("Массив пуст");
+                return true;
+            }
+            return false;
+        }
         static void AddToArray(ref Animal[] array, Animal item)
         {
             Array.Resize(ref array, array.Length + 1);
             array[array.Length - 1] = item;
         }
-        static void AddToArray(ref string[] array, string item)
+        static void AddToArray(ref IRandomInit[] array, IRandomInit item)
         {
             Array.Resize(ref array, array.Length + 1);
             array[array.Length - 1] = item;
@@ -597,6 +625,20 @@ namespace lab._10
                 beast.Print();
             }
         }
+        static void PrintArray(IRandomInit[] zoo)
+        {
+            foreach (IRandomInit obj in zoo)
+            {
+                obj.Print();
+            }
+        }
+        static void WrongPrintArray(Animal[] zoo)
+        {
+            foreach (Animal beast in zoo)
+            {
+                beast.WrongPrint();
+            }
+        }
         static void RandomArray(ref Animal []zoo, int size) {
             for (int i = 0; i<size; ++i)
             {
@@ -629,90 +671,49 @@ namespace lab._10
                 
             }
         }
+        static void RandomArray(ref IRandomInit[] arr, int size)
+        {
+            for (int i = 0; i < size; ++i)
+            {
+                Random rnd = new Random();
+                int creation = rnd.Next(0, 7);
+                if (creation == 0)
+                {
+                    Animal animal = new Animal();
+                    animal.RandomInit();
+                    AddToArray(ref arr, animal);
+                }
+                if (creation == 1)
+                {
+                    Bird animal = new Bird();
+                    animal.RandomInit();
+                    AddToArray(ref arr, animal);
+                }
+                if (creation == 2)
+                {
+                    Mammal animal = new Mammal();
+                    animal.RandomInit();
+                    AddToArray(ref arr, animal);
+                }
+                if (creation == 3)
+                {
+                    Artiodactyl animal = new Artiodactyl();
+                    animal.RandomInit();
+                    AddToArray(ref arr, animal);
+                }
+                if (creation >= 4)
+                {
+                    Person human = new Person();
+                    human.RandomInit();
+                    AddToArray(ref arr, human);
+                }
+
+            }
+        }
+        
         static void Main(string[] args)
         {
-            
-            
             Task();
-            //Animal animal = new Animal();
-            ////animal.Print();
-
-            //Bird bird = new Bird("Jimmy", 4, 55);
-            //Bird birdes = new Bird("Hoollo", 8, 11);
-            ////bird.Print();
-
-            //Mammal bear = new Mammal("bear", 300, 10);
-            ////bear.Print();
-
-            //Artiodactyl pig = new Artiodactyl("piggo", 20, 0.4, 10);
-            ////pig.Print();
-            //// 1 part
-            //// 2 part Средний вес животных заданного вида в зоопарке, Наименование птиц в зоопарке, 
-
-            //Animal[] zoo = { animal, bird, bear, pig, birdes};
-            //int amount = 0;
-            //double all = 0;
-            //foreach(Animal beast in zoo)
-            //{
-            //    beast.Print();
-            //    if (beast is Bird) {
-            //        amount++;
-            //        all += beast.Weight;
-            //    }
-            //}
-            //foreach (Animal beast in zoo)
-            //{
-              
-            //    if (beast is Bird)
-            //    {
-            //        Console.Write(beast.Name + " ");
-            //    }
-            //}
-           
-            //double medium = all / amount;
-            //Console.WriteLine($"Средний вес птиц в зоопарке {medium}");
-            //// 3 part  IComparable
-            //Console.WriteLine();
-            //Console.WriteLine();
-            //Array.Sort(zoo);
-            //foreach (Animal beast in zoo)
-            //{
-            //    beast.Print();
-            //    if (beast is Bird)
-            //    {
-            //        amount++;
-            //        all += beast.Weight;
-            //    }
-            //}
-            //Console.WriteLine();
-            //Console.WriteLine();
-            //// 3 part  ICompare
-            //Array.Sort(zoo, new AnimalComparer());
-            //foreach (Animal beast in zoo)
-            //{
-            //    beast.Print();
-            //}
-            //Console.WriteLine();
-            //Animal p1 = new Animal("", 2);
-            //p1.Print();
-            //Console.WriteLine();
-            //p1 = animal;
-            //p1.Print();
-            //Console.WriteLine();
-            //p1 = animal.ShallowCopy();
-            //p1.Print();
-            //Console.WriteLine();
-            //p1 = (Animal)p1.Clone();
-            //p1.Print();
-            //Console.WriteLine();
-            //Artiodactyl p2 = new Artiodactyl();
-            //p2 = (Artiodactyl)pig.Clone();
-            //p2.Print();
-            //Console.WriteLine();
-            //Artiodactyl test = new Artiodactyl();
-            //test.Print();
-            //test.RandomInit();
-            //test.Print();
         }
     }
 }

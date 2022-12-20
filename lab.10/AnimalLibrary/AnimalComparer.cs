@@ -12,7 +12,7 @@ namespace AnimalLibrary
 		{
 			if (p1 is null || p2 is null)
 				throw new ArgumentException("Некорректное значение параметра");
-			return String.Compare(p1.Name, p2.Name);
+			return String.Compare(p1.ToString(), p2.ToString());
 		}
 	}
 }

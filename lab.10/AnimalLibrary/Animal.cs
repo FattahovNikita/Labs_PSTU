@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace AnimalLibrary
 {
-	public class Animal : IComparable<Animal>
+	public class Animal :  IRandomInit, ICloneable
 	{
-		public static String[] names = { "James", "Maria", "Kate", "Nick", "John", "Sofy", "Rufy", "Max", "Niko" };
+		public static string[] names = { "James", "Maria", "Kate", "Nick", "John", "Sofy", "Rufy", "Max", "Niko" };
 		protected string name;
 		protected double weight;
 		public string Name
@@ -46,6 +46,10 @@ namespace AnimalLibrary
 		{
 			Console.WriteLine($"Животное по имени {Name}, весом {Weight}");
 		}
+		public void WrongPrint()
+		{
+			Console.WriteLine($"Животное по имени {Name}, весом {Weight}");
+		}
 		public int CompareTo(Animal animal)
 		{
 			if (animal is null) throw new ArgumentException("Некорректное значение параметра");
@@ -55,18 +59,40 @@ namespace AnimalLibrary
 		{
 			return (Animal)this.MemberwiseClone();
 		}
-		public object Clone()
+        public virtual object Clone()
+        {
+            return new Animal(Name, Weight);
+        }
+        public void RandomInit(Random rnd, Random rnd2, Random rnd3)
+        {
+			
+        }
+		public void RandomInit(Random rnd, Random rnd2)
 		{
-			return new Animal("Клон" + this.name, this.weight);
-		}
-		public void RandomInit()
-		{
-			Random rnd = new Random();
+			//Random rnd = new Random();
+			//Random rnd2 = new Random(21);
 			int i = rnd.Next(0, names.Length);
-			int w = rnd.Next(1, 100);
+			int w = rnd2.Next(1, 1000);
 			Name = names[i];
 			Weight = w;
 		}
+        public override string ToString()
+        {
+            return $"Animal(Name={Name}, Weight={Weight})";
+        }
+		public override bool Equals(object obj)
+		{
+			bool result = false;
+
+			if (obj is Animal animal)
+			{
+				result = (name == animal.Name)
+					  && (weight == animal.Weight);
+			}
+
+			return result;
+		}
+
 	}
 
 }

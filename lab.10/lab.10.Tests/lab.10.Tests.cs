@@ -434,20 +434,66 @@ namespace lab._10.Tests
 
         }
     }
+    [TestClass]
+    public class PersonTests
+    {
+        [TestMethod()]
+        public void EmptyConstructor_ClassInstanceCreation_CorrectResult()
+        {
 
-    //[TestClass()]
-    //public class QueriesTests
-    //{
-    //    [TestMethod()]
-    //    public void BirdsAmount_FunctionCall_CorrectResult()
-    //    {
-    //        Bird num1 = new Bird();
-    //        Animal num2 = new Animal();
-    //        Mammal num3 = new Mammal();
-    //        Animal[] zoo = { num1, num2, num3 };
-    //        int exceptedAmount = 1;
-    //        Assert.AreEqual(exceptedAmount,BirdsAmount)
-    //    }
-    //}
+            string expectedName = "безымяный";
+            int expectedAge = 25;
+
+            Person obj = new Person();
+
+            Assert.AreEqual(expectedName, obj.Name);
+            Assert.AreEqual(expectedAge, obj.Age);
+        }
+
+        [TestMethod()]
+        public void ParameterizedConstructor1_ClassInstanceCreation_CorrectResult()
+        {
+            string expectedName = "Nick";
+            int expectedAge = 25;
+
+            Person obj = new Person(expectedName);
+
+            Assert.AreEqual(expectedName, obj.Name);
+            Assert.AreEqual(expectedAge, obj.Age);
+        }
+
+        [TestMethod()]
+        public void ParameterizedConstructor2_ClassInstanceCreation_CorrectResult()
+        {
+            string expectedName = "Nick";
+            int expectedAge = 40;
+
+            Person obj = new Person(expectedName, expectedAge);
+
+            Assert.AreEqual(expectedName, obj.Name);
+            Assert.AreEqual(expectedAge, obj.Age);
+        }
+        public void RandomInit_FunctionCall_CorrectResult()
+        {
+            string[] exceptedNames = { "James", "Maria", "Kate", "Nick", "John", "Sofy", "Rufy", "Max", "Niko" };
+            int expectedIntervalLeftBoundary = 1;
+            int expectedIntervalRightBoundary = 100;
+
+            Person obj = new Person();
+            obj.RandomInit();
+            for (int i = 0; i < exceptedNames.Length; ++i)
+            {
+                if (obj.Name == exceptedNames[i])
+                {
+                    Assert.IsTrue(obj.Name == exceptedNames[i]);
+                    break;
+                }
+                if (i == exceptedNames.Length - 1)
+                    Assert.IsTrue(obj.Name == exceptedNames[i]);
+            }
+            Assert.IsTrue(expectedIntervalLeftBoundary <= obj.Age
+                          && obj.Age <= expectedIntervalRightBoundary);
+        }
+    }
 }
 

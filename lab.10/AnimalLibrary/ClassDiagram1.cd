@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="AnimalsLib.Animal">
+  <Class Name="AnimalLibrary.Animal">
     <Position X="0.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAQAAAAAAAQAACAEAAAgAAAAABAEAJA=</HashCode>
+      <HashCode>AAAAAAAAAACAAAQEAAAAAAQAACAEAAAgAAAAABAGAJA=</HashCode>
       <FileName>Animal.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AnimalsLib.AnimalComparer">
+  <Class Name="AnimalLibrary.AnimalComparer">
     <Position X="10.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
@@ -16,34 +16,41 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AnimalsLib.Artiodactyl">
+  <Class Name="AnimalLibrary.Artiodactyl">
     <Position X="4.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAIAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAABAEABA=</HashCode>
+      <HashCode>AAAAIAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAABAGABA=</HashCode>
       <FileName>Artiodactyl.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AnimalsLib.Bird">
+  <Class Name="AnimalLibrary.Bird">
     <Position X="6.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgCAAAIAAAAAAAAAAAAAAAAAAAAAABAEABA=</HashCode>
+      <HashCode>AAAAAAAAAgCAAAIEAIAAAAAAAAAAAAAAAAAAABAGABA=</HashCode>
       <FileName>Bird.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="AnimalsLib.Mammal">
+  <Class Name="AnimalLibrary.Mammal">
     <Position X="2.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAAAAAAAABAAAAAQAAAAAAAAABAEABA=</HashCode>
+      <HashCode>AAAAAAAAAACAAAAAAAAAABAAAAAQAAAAAAAAABAGABA=</HashCode>
       <FileName>Mammal.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="AnimalsLib.IRandomInit">
+  <Class Name="AnimalLibrary.TestCollections">
+    <Position X="8.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAgAAAAAABABAAAAAAgAACAAAAA=</HashCode>
+      <FileName>TestCollections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="AnimalLibrary.IRandomInit">
     <Position X="8.5" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
       <FileName>IRandomInit.cs</FileName>
     </TypeIdentifier>
   </Interface>
